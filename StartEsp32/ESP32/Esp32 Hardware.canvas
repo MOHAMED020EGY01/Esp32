@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"e5f39d3d649d1d8d","type":"file","file":"ESP32/Left Esp 32.md","x":-940,"y":-39,"width":740,"height":640},
+		{"id":"618b84d85106cc08","type":"file","file":"ESP32/Explain Left Esp 32.md","x":-2520,"y":-158,"width":800,"height":878,"color":"4"},
+		{"id":"8cde1b6c42be1052","type":"file","file":"ESP32/Right Esp 32.md","x":400,"y":-64,"width":580,"height":689},
+		{"id":"8cd67cbfab1c3636","type":"file","file":"ESP32/Explain Right Esp 32.md","x":1520,"y":-100,"width":680,"height":760,"color":"4"},
+		{"id":"c251f77e2b344df8","type":"file","file":"ESP32/Note.md","x":-177,"y":720,"width":545,"height":299},
+		{"id":"ffc02d62829247d1","type":"file","file":"ESP32/ESP32 Images.png","x":-105,"y":-31,"width":402,"height":623},
+		{"id":"3f46485aa2c7cbca","type":"file","file":"ESP32/ملخص سريع.md","x":-220,"y":-880,"width":665,"height":480}
+	],
+	"edges":[
+		{"id":"d878ec2d6588a892","fromNode":"ffc02d62829247d1","fromSide":"left","toNode":"e5f39d3d649d1d8d","toSide":"right"},
+		{"id":"cf433f0e4ca03e9b","fromNode":"ffc02d62829247d1","fromSide":"right","toNode":"8cde1b6c42be1052","toSide":"left"},
+		{"id":"b1ecfc55d6be017c","fromNode":"ffc02d62829247d1","fromSide":"bottom","toNode":"c251f77e2b344df8","toSide":"top"},
+		{"id":"0f8c6b15e423f556","fromNode":"e5f39d3d649d1d8d","fromSide":"left","toNode":"618b84d85106cc08","toSide":"right","label":"pin شرح لي كل "},
+		{"id":"c8b5d12f676ae5b1","fromNode":"8cde1b6c42be1052","fromSide":"right","toNode":"8cd67cbfab1c3636","toSide":"left","label":"pin شرح لي كل "},
+		{"id":"46df40d554927e40","fromNode":"ffc02d62829247d1","fromSide":"top","toNode":"3f46485aa2c7cbca","toSide":"bottom"},
+		{"id":"3232105d4e49fd15","fromNode":"8cde1b6c42be1052","fromSide":"top","toNode":"3f46485aa2c7cbca","toSide":"right"},
+		{"id":"1bbb419d7702aafa","fromNode":"e5f39d3d649d1d8d","fromSide":"top","toNode":"3f46485aa2c7cbca","toSide":"left"}
+	]
+}
